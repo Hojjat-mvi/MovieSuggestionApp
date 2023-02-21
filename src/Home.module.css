@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.movieList {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: scroll;
+}
+
+.movieList h1 {
+  margin-top: 100px;
+}
+
+.movieComponent {
+  width: 82%;
+  height: 150px;
+  background-color: #2d6187;
+  margin-top: 8px;
+  color: #f6f5f5;
+  flex-direction: row;
+  align-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  text-indent: 1%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.movieComponent:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid #8f384d;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/* .movieComponent h2 {
+  margin-top: 5px;
+} */
+
+.titles {
+  width: 450px;
+  padding: 7px 0 5px 7px;
+  margin-top: 3px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+
+
+.buttonEnd {
+  width: 400px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 8px 8px 0px;
+}
+
+
+
+.movieComponent .buttonEnd button {
+  position: relative;
+  margin-left: 7px;
+}
+
+@media only screen and (max-width: 750px) {
+  .movieComponent .buttonEnd {
+    justify-content: center;
+    align-items: flex-end;
+    margin: 5px 0px 5px 0px;
+    flex-direction: column;
+    display: flex;
+  }
+  .movieComponent .buttonEnd button {
+    position: sticky;
+    margin-top: 5px;
+  }
+
+  .movieComponent {
+    height: 250px;
+  }
+}
+
+
+input[type="date"]{
+    background-color: #0080ff;
+    padding: 15px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  
+}
+

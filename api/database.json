@@ -1,0 +1,52 @@
+{
+  "movies": [
+    {
+      "name": "Thane Short",
+      "description": "Atque porro cum rem ",
+      "genre": "Drama",
+      "date": null,
+      "creator": "bruno@email.com",
+      "id": 1
+    },
+    {
+      "name": "Porter Mclean",
+      "description": "Dolor autem officia ",
+      "genre": "Drama",
+      "date": "2008-08-17T19:30:00.000Z",
+      "creator": "test@test.com",
+      "id": 2
+    },
+    {
+      "name": "dororo",
+      "description": "something ",
+      "genre": "Action",
+      "date": "2017-08-17T19:30:00.000Z",
+      "creator": "bruno@email.com",
+      "id": 3
+    },
+    {
+      "name": "Kyle Jarvis",
+      "description": "Deleniti dicta accus",
+      "genre": "Drama",
+      "date": "2014-08-17T19:30:00.000Z",
+      "creator": "jafar@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Pamela Frye",
+      "description": "Anim consequat Sit ",
+      "genre": "documentary",
+      "date": "2014-08-17T19:30:00.000Z",
+      "creator": "jafar@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Imani Vargas",
+      "description": "Delectus quam alias",
+      "genre": "SciFi",
+      "date": "2014-08-17T19:30:00.000Z",
+      "creator": "jafar@gmail.com",
+      "id": 7
+    }
+  ]
+}
