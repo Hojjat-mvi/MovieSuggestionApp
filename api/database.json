@@ -17,14 +17,6 @@
       "id": 2
     },
     {
-      "name": "dororo",
-      "description": "something ",
-      "genre": "Action",
-      "date": "2017-08-17T19:30:00.000Z",
-      "creator": "bruno@email.com",
-      "id": 3
-    },
-    {
       "name": "Kyle Jarvis",
       "description": "Deleniti dicta accus",
       "genre": "Drama",
@@ -47,6 +39,14 @@
       "date": "2014-08-17T19:30:00.000Z",
       "creator": "jafar@gmail.com",
       "id": 7
+    },
+    {
+      "name": "Karyn Jackson",
+      "description": "Ipsa debitis quas e",
+      "genre": "Drama",
+      "date": "2014-08-17T19:30:00.000Z",
+      "creator": "bruno@email.com",
+      "id": 8
     }
   ]
 }
